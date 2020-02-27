@@ -1,0 +1,35 @@
+<mat-toolbar color="primary">
+  <ng-container i18n>Customer Management Application</ng-container>
+  <span class="spacer"></span>
+  <button
+    mat-flat-button
+    color="primary"
+    routerLink="home"
+    routerLinkActive="active"
+    i18n
+  >
+    Home
+  </button>
+  <button
+    mat-flat-button
+    color="primary"
+    routerLink="customer"
+    routerLinkActive="active"
+    i18n
+  >
+    Customer
+  </button>
+  <button
+    mat-flat-button
+    color="primary"
+    routerLink="admin"
+    routerLinkActive="active"
+    i18n
+  >
+    Admin
+  </button>
+</mat-toolbar>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
